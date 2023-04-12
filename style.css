@@ -6,45 +6,32 @@ background-color: white;
 /*This is for Main page for all of them*/
 }
 header{
-    color: black;
-    box-sizing: border-box;
-    width: 100%;
-    background-color: white;
     display: flex;
+    color: black;
+    width: 100%;
+    height: 2.8rem;
+    background-color: white;
     align-items: center;
     justify-content: space-between;
+   text-size-adjust: 2.5rem;
     
 }
 .name{
-    float: left;
-    background-color:white;
-    width: 1800rem;
-    padding: 10px;
+   float: left;
+   text-align: center;
+   width: 20rem;
     
     
    
 }
-.home{
-   float: left;
-   background-color:white ;
-   text-align: center;
-   width: 250rem;
-   padding: 10px;
-   
+.active{
+ 
 }
-.about{
-    float: left;
-    text-align: center;
-    background-color:white;
-    width:250px;
-    padding: 10px;
+.About{
+    
 }
-.portfolio{
-   float: left;
-   text-align: center;
-   background-color:white;
-    width: 200px;
-    padding: 10px;
+.Port{
+    width: 10rem;
 }
 
 main{
@@ -65,14 +52,17 @@ footer{
     background-color: white;
 }
 .instagram{
-    margin: auto;
     width: 3rem;
+    align-items: center;
+    margin: auto;
 }
 .github{
 width: 3rem;
+align-items: center;
 }
 .facebook{
     width: 3rem;
+    align-items: center;
 }
 /*this is going to be for about*/
 .main_content2{
